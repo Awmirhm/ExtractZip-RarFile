@@ -1,4 +1,4 @@
-# This project is a project to extract rar files and compressed files.
+# This project is a project to extract Rar files and Zip files.
 
 ## *In this project, you can only import files that end in (.zip and .rar).*
 
