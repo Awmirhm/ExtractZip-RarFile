@@ -1,3 +1,4 @@
+import rarfile
 from ttkbootstrap import Window, Frame, Label, Button, Entry, END, Treeview, Scrollbar, VERTICAL, WARNING, \
     SUCCESS, DANGER, OUTLINE, INFO
 from tkinter.filedialog import askopenfilename
@@ -5,6 +6,7 @@ from ttkbootstrap.dialogs import Messagebox
 import patoolib
 from rarfile import RarFile
 from zipfile import ZipFile
+
 
 # Create Window
 page = Window(title="Extract Zip File", themename="darkly")
